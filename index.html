@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolilo</title>
+    <link rel="stylesheet" href="style.css" class="link">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <section class="nav" id="navbar">
+        <div class="navigation">
+            <button class="menu" onclick="toggle()">
+                <img src="images/icons8-menu-64.png" class="menuBtn"/>
+            </button>
+            <h1 class="head">Sinchan Nandy</h1>
+            <div class="btn_container">
+                <div class="menus">
+                    <a href="#home">
+                        <h2 class="home_btn">Home</h2>
+                    </a>
+                    <a href="#about">
+                        <h2 class="about_btn">About</h2>
+                    </a>
+                    <a href="#work">
+                        <h2 class="work_btn">Works</h2>
+                    </a>
+                    <a href="#contact">
+                        <h2 class="contact_btn">Contact</h2>
+                    </a>
+                </div>
+                <button class="dark" onclick="darkMode()">
+                    <img src="images/moon-symbol.png" class="darkIcon"/>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="home" id="home">
+        <div class="home_sec">
+            <div class="home_sec_left">
+                <h1>Hi, I'm<br><span class="fname">Sinchan </span><span class="lname">Nandy</span></h1>
+                <h2>A <span class="dec">Frontend</span> Developer</h2>
+            </div>
+            <div class="home_sec_right">
+                <img src="images/port.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about_sec_parent">
+            <div class="about_sec">
+                <div class="profile_image">
+                    <img src="images/res2.jpg" alt="">
+                </div>
+                <div class="about_text">
+                    <p>“I am a CS student 🧑‍🎓 and a passionate frontend developer 🧑‍💻 who loves to create beautiful
+                        web
+                        pages and learn through the process ❤️.
+                        To aquire more knowledge 💡 in the field 💻 I am still learning 📘 everyday and implementing
+                        those
+                        in projects 💖. This portfolio web-page 📄 is one of my projects which ,by upgradations, will
+                        define my
+                        progress 👌 and tell people about me at the same time 🥰.”</p>
+                </div>
+            </div>
+            <a href="Resume_me.pdf" download="Resume" class="download">
+                <button class="resume">
+                    <img src="images/export-pdf.png" />
+                    <h2>Resume</h2>
+                </button>
+            </a>
+        </div>
+        <div class="skills">
+            <span class="skillHead">
+                <h1>My Skills</h1>
+            </span>
+            <div class="skillWrapper">
+                <div class="skillContent">
+                    <img src="images/html.png" alt="">
+                </div>
+                <div class="skillContent">
+                    <img src="images/css.png" alt="">
+                </div>
+                <div class="skillContent">
+                    <img src="images/javascript.png" alt="">
+                </div>
+                <div class="skillContent">
+                    <img src="images/c-icon.svg" alt="">
+                </div>
+                <div class="skillContent">
+                    <img src="images/java.svg" alt="">
+                </div>
+                <div class="skillContent">
+                    <img src="images/python-icon.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="work" id="work">
+        <h1>Projects</h1>
+        <div class="projectsCard">
+            <div class="card cd-1" data-tilt>
+                <div class="imgSec i-1">
+                    <img src="images/189956134-8c170f7a-b600-48cf-b5fa-85bc899348fe.png"
+                        alt="">
+                </div>
+                <div class="textSec t-1">
+                    <h1>Tic-Tac-Toe</h1>
+                    <h3>This is a simple Tic-Tac-Toe game made with the help of HTML, CSS and JS which you can play with
+                        your friends.</h3>
+                    <a href="https://betabot2002.github.io/Tic-Tac-Toe/" target="_blank"><button class="web"><img
+                                src="images/web.png" />Website</button></a>
+                    <a href="https://github.com/BetaBot2002/Tic-Tac-Toe" target="_blank"><button class="git"><img
+                                src="images/github.png" />GitHub</button></a>
+                </div>
+            </div>
+            <div class="card cd-2" data-tilt>
+                <div class="imgSec i-2">
+                    <img src="images/189231880-086f8059-c7e8-4175-938a-5e82bc35a371.png"
+                        alt="">
+                </div>
+                <div class="textSec t-2">
+                    <h1>Calculator</h1>
+                    <h3>This is a simple Calculator made with the help of HTML, CSS and JS in which you calculate simple
+                        calculations.</h3>
+                    <a href="https://betabot2002.github.io/Responsive-Calculator/" target="_blank"><button
+                            class="web"><img src="images/web.png" />Website</button></a>
+                    <a href="https://github.com/BetaBot2002/Responsive-Calculator" target="_blank"><button
+                            class="git"><img src="images/github.png" />GitHub</button></a>
+                </div>
+            </div>
+            <div class="card cd-3" data-tilt>
+                <div class="imgSec i-3">
+                    <img src="images/192563272-f4a4a285-d00d-4942-ac12-19e154e66171.png"
+                        alt="">
+                </div>
+                <div class="textSec t-3">
+                    <h1>Piano</h1>
+                    <h3>This is a simple Piano made with the help of HTML, CSS and JS in which you can play all the the
+                        notes of 4 different octaves.</h3>
+                    <a href="https://betabot2002.github.io/Piano/" target="_blank"><button class="web"><img
+                                src="images/web.png" />Website</button></a>
+                    <a href="https://github.com/BetaBot2002/Piano" target="_blank"><button class="git"><img
+                                src="images/github.png" />GitHub</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="contact_sec">
+            <h1 class="contactHead">Contact</h1>
+            <div class="contactBtnWrapper">
+                <a href="https://www.facebook.com/sinchan.nandy.7/" target="_blank">
+                    <div class="btn fb"><img src="images/facebook-circled--v1.png" />
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/___sprinkler___/" target="_blank">
+                    <div class="btn in"><img src="images/icon-instagram.svg" alt=""></div>
+                </a>
+                <a href="https://github.com/BetaBot2002" target="_blank">
+                    <div class="btn git"><img src="images/github-240.png" alt=""></div>
+                </a>
+                <a href="https://www.linkedin.com/in/sinchan-nandy/" target="_blank">
+                    <div class="btn ln"><img src="images/linkedin.png" alt=""></div>
+                </a>
+                <a href="https://twitter.com/sinchan_nandy" target="_blank">
+                    <div class="btn tw"><img src="images/twitter.png" alt=""></div>
+                </a>
+                <a href="mailto:sinchannandy54@gmail.com" target="_blank">
+                    <div class="btn gm"><img src="images/gmail.png" alt=""></div>
+                </a>
+            </div>
+            <h2 class="contactHead">© Sinchan Nandy</h2>
+        </div>
+    </section>
+</body>
+
+</html>
