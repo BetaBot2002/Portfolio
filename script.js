@@ -525,8 +525,8 @@ var VanillaTilt = (function () {
 /*Vanila-Tilt*/
   }
 
-let crs="/images/menuCross.png"
-let nonCrs="/images/icons8-menu-64.png"
+let crs="images/menuCross.png"
+let nonCrs="images/icons8-menu-64.png"
 
 
 function toggle(){
